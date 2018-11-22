@@ -1,0 +1,37 @@
+.App {
+  font-family: Nunito, sans-serif;
+}
+
+.Header {
+  margin: 4rem 0;
+}
+
+.Footer {
+  margin: 2rem 0;
+}
+
+.card {
+  border-radius: 20px !important;
+  overflow: hidden;
+  box-shadow: 0 1px 20px 0 hsla(0, 0%, 0%, 0.2);
+  margin-bottom: 2em;
+  border: none !important;
+}
+
+.card-img-top {
+  position: relative;
+}
+
+.CopyBackdrop {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.CopyBackdrop img {
+  width: 100%;
+}
