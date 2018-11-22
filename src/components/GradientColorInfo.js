@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 
-const GradientColorInfo = (props) => {
+const GradientColorInfo = ({ color }) => {
   const style = {
     display: 'block',
-    color: `#${props.color}`,
+    color: `#${color}`,
     fontWeight: 'bold',
     fontFamily: 'monospace',
     fontSize: '16px',
     textAlign: 'center'
   }
 
-  return <span style={style}>{props.color}</span>
+  return <span style={style}>{color}</span>
 }
 
-export default GradientColorInfo;
+export default GradientColorInfo
