@@ -17,3 +17,19 @@
   margin-bottom: 2em;
   border: none !important;
 }
+
+.card-img-top:hover:before {
+  content: '📋';
+  background-color: hsla(0, 0%, 0%, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  animation: show .2s ease forwards;
+  cursor: pointer;
+}
+
+@keyframes show {
+  0%    { opacity: 0; }
+  100%  { opacity: 1; }
+}
